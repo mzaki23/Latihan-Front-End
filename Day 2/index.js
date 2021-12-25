@@ -10,8 +10,8 @@ function greet(name, lastName) {
 
 //-------------------------------------------------
 // Calculating a value
-function square(number) {
-    return number * number;
+function square(a,b) {
+    return a * b;
 }
 
 //let number = square(2);
@@ -19,4 +19,8 @@ function square(number) {
 
 //console.log(square(2));
 
-console.log();
+console.log(square(2,8));
+
+const nambah = (c,d) => c*d;
+
+console.log(nambah(2,3));
